@@ -1,6 +1,14 @@
 ---
 name: ecdysales
 description: "Quick product image processing: add price sticker + watermark + logo. Use when user sends `$price:` with an image. Minimal context, runs fast."
+metadata:
+  openclaw:
+    requires:
+      bins:
+        - convert
+        - identify
+        - bc
+        - python3
 ---
 
 # Ecdysales 🏷️
